@@ -1,0 +1,260 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+        /*hero start*/
+        .hero {
+            background-image: none;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: right;
+            padding-top: 0px;
+            padding-bottom: 0px;}
+
+            .hr_h1 {
+                font-size: 30px;
+                line-height: normal;
+            }
+                .hr_text {
+                    margin-top: 0px;
+                }
+
+                .hr_btn {
+                    margin-top: 15px;
+                    padding: 5px 17px;
+                }
+
+/*intro start*/
+
+.intro_img{
+    padding: 15px 0;
+}
+
+.intro_h2 {
+    font-size: 18px;
+}
+
+.hr_p {
+    line-height: normal;
+}
+
+/*features*/
+.features {
+    padding-top: 50px;
+}
+
+.frs_img {
+    padding: 0px 15px;
+}
+    
+.fr_h1 {
+    font-size: 30px;
+    padding-top: 30px;
+}
+/*prising*/
+.pr_pd {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.pr_h2 {
+    padding-top: 0;
+    }
+
+    .pr_h3 {
+        padding-bottom: 0;
+    }
+
+    /*footer*/
+    .tft_pd {
+        padding-top: 30px;
+    }
+
+
+    .ft_btom {
+        margin: 30px 0;}
+
+        .ft_menu ul li {
+            padding-right: 22px;}
+
+            .ft_menu ul li a {
+                margin-left:0px;}
+
+                .ft_icon a i {
+                    padding: 0px 20px;}
+
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+        /*hero start*/
+        .hero {
+            background-image: url(../img/himg.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: right;
+            padding-top: 50px;
+            padding-bottom: 90px;}
+
+            .hr_h1 {
+                font-size: 36px;
+                line-height: normal;
+            }
+                .hr_text {
+                    margin-top: 0px;
+                }
+
+                .hr_btn {
+                    margin-top: 50px;}
+
+/*intro start*/
+
+.intro_h2 {
+    font-size: 26px;
+}
+
+.hr_p {
+    line-height: normal;
+}
+/*features*/
+.features {
+    padding-top: 100px;
+}
+
+.frs_img {
+    padding: 0px 80px;
+}
+/*prising*/
+.pr_pd {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.pr_h2 {
+padding-top: 0;
+}
+.pr_h3 {
+    padding-bottom: 0;
+}
+
+/*footer start*/
+
+.tft_pd {
+    padding-top: 30px;
+}
+.ft_btom {
+    margin: 0;}
+
+    .ft_menu ul li {
+        padding-right: 70px;
+    }
+
+    .ftr_btn {
+        margin-top: 3px;
+    }
+    .ft_menu ul li {
+        padding-right: 59px;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /*hero start*/
+    .hero {
+        background-image: url(../img/himg.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+        padding-top: 100px;
+        padding-bottom: 100px;}
+
+/*intro start*/
+
+
+.hr_p {
+    line-height:normal;
+}
+
+.intro_h1 {
+    padding-top:0px;
+}
+
+/*prising start*/
+.pr_pd {
+    padding-top: 150px;
+    padding-bottom: 70px;
+}
+
+/*footer start*/
+
+.tft_pd {
+    padding-top: 30px;
+}
+.ft_btom {
+    margin: 30px 0;}
+
+    .ft_menu ul li {
+        padding-right: 70px;
+    }
+
+
+
+
+    
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+/*intro start*/
+
+    .hr_p {
+        line-height:normal;
+    }
+
+    .intro_h1 {
+        padding-top:0px;
+    }
+
+
+/*featurers*/
+    .frs_img {
+        margin-top: 80px;
+        padding: 0px;}
+        .features {
+            padding-bottom: 100px;}
+
+/*prising start*/
+            .pr_pd {
+                padding-top: 150px;
+                padding-bottom: 70px;
+            }
+
+/*footer start*/
+            .ft_btom {
+                margin: 30px 0;}
+
+}
+/* extra Large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+/*hero start*/
+.hr_text {
+    margin-top: 50px;
+    padding-right: 150px;}
+
+}
+
+/*intro start*/
+
+.icon {
+    padding-top:0px;}
+
+
+/* Extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) { 
+
+/*hero start*/
+    .hr_text {
+        margin-top: 50px;
+        padding-right: 150px;}
+
+
+
+}
